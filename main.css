@@ -1,5 +1,29 @@
+main {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  font-weight: bold;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+#img-div p {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: inside;
+  display: block;
+}
+
+li {
+  padding-top: 10px;
 }
